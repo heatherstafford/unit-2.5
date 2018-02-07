@@ -13,9 +13,13 @@ blackOutline = LineStyle(2,black)
 
 redRectangle = RectangleAsset(200,100,blackOutline, red) #width, height, outline, fill
 blueCircle = CircleAsset(50,blackOutline,blue) #radius, outline, fill
+greenEllipse = EllipseAsset(100,50,blackOutline, green) #width, height, outline, fill
+blackLine = LineAsset(50,160,blackOUtline) #x-endpoint, y-endpoint, lineStyle
 
 Sprite(redRectangle)
-Sprite(blueCircle,(300,5))
+Sprite(blueCircle,(300,50)) #(moving it over by coordinates)
+Sprite(greenEllipse, (40,200))
+Sprite(blackLine)
 
 App().run()
 
