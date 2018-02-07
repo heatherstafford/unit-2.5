@@ -24,4 +24,3 @@ Sprite(blackLine, (40,100))
 Sprite(redTriangle)
 
 App().run()
-
