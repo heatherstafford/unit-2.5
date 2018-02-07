@@ -19,7 +19,7 @@ blackLine = LineAsset(50,160,blackOutline) #x-endpoint, y-endpoint, lineStyle
 Sprite(redRectangle)
 Sprite(blueCircle,(300,50)) #(moving it over by coordinates)
 Sprite(greenEllipse, (40,200))
-Sprite(blackLine)
+Sprite(blackLine, (40,100))
 
 App().run()
 
