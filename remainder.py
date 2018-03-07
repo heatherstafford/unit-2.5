@@ -5,15 +5,16 @@
 from random import randint
 from ggame import *
 
-num1 = randint(1,10)
+num1 = randint(10,20)
 num2 = randint(1,10)
 
-yellow = Color(0xFFFF00)
+yellow = Color(0xFFFF00, 1)
 yellowCircle = CircleAsset(100, LineStyle(2,black), yellow)
 
-answer = int(input('What is '+ str(num1) + '/' + str(num2) + '?'))
+answer = float(input('What is the remainder of '+ str(num1) + '/' + str(num2) + '?'))
 if answer == num1%num2:
-    sprite(yellowCircle)
+    Sprite(yellowCircle)
 else:
-    sprite(yellowCirlce)
+    Sprite(yellowCircle)
     
+App().run()
