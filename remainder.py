@@ -21,13 +21,13 @@ if answer == num1%num2:
     Sprite(yellowCircle)
     Sprite(blackCircle,(50,60))
     Sprite(yellowEdit, (50,40))
-    Sprite(blackEye,(50,25))
-    Sprite(blackEye,(25,75))
+    Sprite(blackEye,(50,40))
+    Sprite(blackEye,(125,40))
 else:
     Sprite(yellowCircle)
     Sprite(blackCircle, (50,80))
     Sprite(yellowEdit, (50,98))
-    Sprite(blackEye,(50,25))
-    Sprite(blackEye,(75,25))
+    Sprite(blackEye,(50,40))
+    Sprite(blackEye,(125,40))
     
 App().run()
